@@ -42,6 +42,6 @@ func main() {
 
 	gif.Encode(createFile, img, &gif.Options{NumColors: 256})
 
-	fmt.Printf("%s => %s  convert successful! \n", args, fileName)
+	fmt.Printf("%s => %s  convert successful!\n", args, fileName)
 
 }
